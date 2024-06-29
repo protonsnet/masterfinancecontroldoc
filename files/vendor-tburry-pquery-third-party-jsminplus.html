@@ -1,0 +1,4633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>Master Finance Control</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Master Finance Control</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/adianti.html" class="">Adianti</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/adianti-base.html" class="">Base</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-control.html" class="">Control</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-core.html" class="">Core</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-database.html" class="">Database</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-http.html" class="">Http</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-log.html" class="">Log</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-registry.html" class="">Registry</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-service.html" class="">Service</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-util.html" class="">Util</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-validator.html" class="">Validator</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-widget.html" class="">Widget</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/adianti-wrapper.html" class="">Wrapper</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/math.html" class="">Math</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/math-translationstrategy.html" class="">TranslationStrategy</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/baconqrcode.html" class="">BaconQrCode</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/baconqrcode-common.html" class="">Common</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/baconqrcode-encoder.html" class="">Encoder</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/baconqrcode-exception.html" class="">Exception</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/baconqrcode-renderer.html" class="">Renderer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/baconqrcodetest.html" class="">BaconQrCodeTest</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/baconqrcodetest-common.html" class="">Common</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/baconqrcodetest-encoder.html" class="">Encoder</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/baconqrcodetest-integration.html" class="">Integration</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/composer.html" class="">Composer</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/composer-autoload.html" class="">Autoload</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/dasprid.html" class="">DASPRiD</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/dasprid-enum.html" class="">Enum</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dasprid-enumtest.html" class="">EnumTest</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/dompdf.html" class="">Dompdf</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/dompdf-adapter.html" class="">Adapter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dompdf-css.html" class="">Css</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dompdf-exception.html" class="">Exception</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dompdf-frame.html" class="">Frame</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dompdf-framedecorator.html" class="">FrameDecorator</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dompdf-framereflower.html" class="">FrameReflower</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dompdf-image.html" class="">Image</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dompdf-positioner.html" class="">Positioner</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/dompdf-renderer.html" class="">Renderer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/firebase.html" class="">Firebase</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/firebase-jwt.html" class="">JWT</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/linfo.html" class="">Linfo</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/linfo-exceptions.html" class="">Exceptions</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/linfo-extension.html" class="">Extension</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/linfo-lang.html" class="">Lang</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/linfo-meta.html" class="">Meta</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/linfo-os.html" class="">OS</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/linfo-output.html" class="">Output</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/linfo-parsers.html" class="">Parsers</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/fontlib.html" class="">FontLib</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/fontlib-eot.html" class="">EOT</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/fontlib-exception.html" class="">Exception</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/fontlib-glyph.html" class="">Glyph</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/fontlib-opentype.html" class="">OpenType</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/fontlib-table.html" class="">Table</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/fontlib-truetype.html" class="">TrueType</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/fontlib-woff.html" class="">WOFF</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/svg.html" class="">Svg</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/svg-gradient.html" class="">Gradient</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/svg-surface.html" class="">Surface</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/svg-tag.html" class="">Tag</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/phpmailer.html" class="">PHPMailer</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phpmailer-phpmailer.html" class="">PHPMailer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/picqer.html" class="">Picqer</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/picqer-barcode.html" class="">Barcode</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/sabberworm.html" class="">Sabberworm</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/sabberworm-css.html" class="">CSS</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/stripe.html" class="">Stripe</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/stripe-apioperations.html" class="">ApiOperations</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-apps.html" class="">Apps</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-billingportal.html" class="">BillingPortal</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-checkout.html" class="">Checkout</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-exception.html" class="">Exception</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-financialconnections.html" class="">FinancialConnections</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-httpclient.html" class="">HttpClient</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-identity.html" class="">Identity</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-issuing.html" class="">Issuing</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-radar.html" class="">Radar</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-reporting.html" class="">Reporting</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-service.html" class="">Service</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-sigma.html" class="">Sigma</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-tax.html" class="">Tax</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-terminal.html" class="">Terminal</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-testhelpers.html" class="">TestHelpers</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-treasury.html" class="">Treasury</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/stripe-util.html" class="">Util</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/pquery.html" class="">pQuery</a>
+</h4>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/control.html" class="">control</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/control-admin.html" class="">admin</a>
+                
+            </li>
+                    <li>
+                <a href="packages/control-chart.html" class="">chart</a>
+                
+            </li>
+                    <li>
+                <a href="packages/control-communication.html" class="">communication</a>
+                
+            </li>
+                    <li>
+                <a href="packages/control-form.html" class="">form</a>
+                
+            </li>
+                    <li>
+                <a href="packages/control-list.html" class="">list</a>
+                
+            </li>
+                    <li>
+                <a href="packages/control-log.html" class="">log</a>
+                
+            </li>
+                    <li>
+                <a href="packages/control-public.html" class="">public</a>
+                
+            </li>
+                    <li>
+                <a href="packages/control-report.html" class="">report</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/app.html" class="">app</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/app-lib.html" class="">lib</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/core.html" class="">core</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/wrapper.html" class="">wrapper</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/util.html" class="">util</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/validator.html" class="">validator</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/model.html" class="">model</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/model.html" class=""></a>
+                
+            </li>
+                    <li>
+                <a href="packages/model-admin.html" class="">admin</a>
+                
+            </li>
+                    <li>
+                <a href="packages/model-communication.html" class="">communication</a>
+                
+            </li>
+                    <li>
+                <a href="packages/model-log.html" class="">log</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/service.html" class="">service</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/service-log.html" class="">log</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/base.html" class="">base</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/database.html" class="">database</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/http.html" class="">http</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/log.html" class="">log</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/registry.html" class="">registry</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/widget.html" class="">widget</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/widget-base.html" class="">base</a>
+                
+            </li>
+                    <li>
+                <a href="packages/widget-container.html" class="">container</a>
+                
+            </li>
+                    <li>
+                <a href="packages/widget-datagrid.html" class="">datagrid</a>
+                
+            </li>
+                    <li>
+                <a href="packages/widget-dialog.html" class="">dialog</a>
+                
+            </li>
+                    <li>
+                <a href="packages/widget-form.html" class="">form</a>
+                
+            </li>
+                    <li>
+                <a href="packages/widget-util.html" class="">util</a>
+                
+            </li>
+                    <li>
+                <a href="packages/widget-menu.html" class="">menu</a>
+                
+            </li>
+                    <li>
+                <a href="packages/widget-template.html" class="">template</a>
+                
+            </li>
+                    <li>
+                <a href="packages/widget-wrapper.html" class="">wrapper</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/pdfdesigner.html" class="">pdfdesigner</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Cpdf.html" class="">Cpdf</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/dompdf.html" class="">dompdf</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Authentication.html" class="">Authentication</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Authentication-JWT.html" class="">JWT</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/OLE.html" class="">OLE</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Spreadsheet.html" class="">Spreadsheet</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Spreadsheet-Excel.html" class="">Excel</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/php.html" class="">php</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/php-font.html" class="">font</a>
+                
+            </li>
+                    <li>
+                <a href="packages/php-svg.html" class="">svg</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Svg.html" class="">Svg</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPMailer.html" class="">PHPMailer</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPMailerSomeFrenchpunctuationrequiresathinnon.html" class="">PHPMailerSomeFrenchpunctuationrequiresathinnon</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPMailerSomeFrenchpunctuationrequiresathinnon-breakingspaceU202Fcharacterbeforeitforexamplebeforeacolonorexclamationmark.html" class="">breakingspaceU202Fcharacterbeforeitforexamplebeforeacolonorexclamationmark</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPRtfLite.html" class="">PHPRtfLite</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPRtfLite-PHPRtfLite.html" class="">PHPRtfLite</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPRtfLite-Endnote.html" class="">Endnote</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPRtfLite-Footnote.html" class="">Footnote</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/pQuery.html" class="">pQuery</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">jsminplus.php</h2>
+
+            <p class="phpdocumentor-summary">JSMinPlus version 1.4</p>
+
+
+    <section class="phpdocumentor-description"><p>Minifies a javascript file using a javascript parser</p>
+<p>This implements a PHP port of Brendan Eich's Narcissus open source javascript engine (in javascript)
+References: http://en.wikipedia.org/wiki/Narcissus_(JavaScript_engine)
+Narcissus sourcecode: http://mxr.mozilla.org/mozilla/source/js/narcissus/
+JSMinPlus weblog: http://crisp.tweakblogs.net/blog/cat/716</p>
+<p>Tino Zijdel <a href="mailto:crisp@tweakers.net">crisp@tweakers.net</a></p>
+<p>Usage: $minified = JSMinPlus::minify($script [, $filename])</p>
+<p>Versionlog (see also changelog.txt):
+23-07-2011 - remove dynamic creation of OP_* and KEYWORD_* defines and declare them on top
+reduce memory footprint by minifying by block-scope
+some small byte-saving and performance improvements
+12-05-2009 - fixed hook:colon precedence, fixed empty body in loop and if-constructs
+18-04-2009 - fixed crashbug in PHP 5.2.9 and several other bugfixes
+12-04-2009 - some small bugfixes and performance improvements
+09-04-2009 - initial open sourced version 1.0</p>
+<p>Latest version of this script: http://files.tweakers.net/jsminplus/jsminplus.zip</p>
+</section>
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="files/vendor-tburry-pquery-third-party-jsminplus.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+    <h4 id="toc-classes">
+        Classes
+        <a href="files/vendor-tburry-pquery-third-party-jsminplus.html#toc-classes" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/JSMinPlus.html"><abbr title="\JSMinPlus">JSMinPlus</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/JSParser.html"><abbr title="\JSParser">JSParser</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/JSCompilerContext.html"><abbr title="\JSCompilerContext">JSCompilerContext</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/JSNode.html"><abbr title="\JSNode">JSNode</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/JSTokenizer.html"><abbr title="\JSTokenizer">JSTokenizer</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/JSToken.html"><abbr title="\JSToken">JSToken</abbr></a></dt>    </dl>
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="files/vendor-tburry-pquery-third-party-jsminplus.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_DECLARED_FORM">DECLARED_FORM</a>
+    <span>
+        &nbsp;= 0                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_EXPRESSED_FORM">EXPRESSED_FORM</a>
+    <span>
+        &nbsp;= 1                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_ARRAY_INIT">JS_ARRAY_INIT</a>
+    <span>
+        &nbsp;= 107                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_BLOCK">JS_BLOCK</a>
+    <span>
+        &nbsp;= 101                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_CALL">JS_CALL</a>
+    <span>
+        &nbsp;= 104                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_FOR_IN">JS_FOR_IN</a>
+    <span>
+        &nbsp;= 103                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_GETTER">JS_GETTER</a>
+    <span>
+        &nbsp;= 110                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_GROUP">JS_GROUP</a>
+    <span>
+        &nbsp;= 112                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_INDEX">JS_INDEX</a>
+    <span>
+        &nbsp;= 106                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_LABEL">JS_LABEL</a>
+    <span>
+        &nbsp;= 102                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_LIST">JS_LIST</a>
+    <span>
+        &nbsp;= 113                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_MINIFIED">JS_MINIFIED</a>
+    <span>
+        &nbsp;= 999                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_NEW_WITH_ARGS">JS_NEW_WITH_ARGS</a>
+    <span>
+        &nbsp;= 105                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_OBJECT_INIT">JS_OBJECT_INIT</a>
+    <span>
+        &nbsp;= 108                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_PROPERTY_INIT">JS_PROPERTY_INIT</a>
+    <span>
+        &nbsp;= 109                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_SCRIPT">JS_SCRIPT</a>
+    <span>
+        &nbsp;= 100                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_JS_SETTER">JS_SETTER</a>
+    <span>
+        &nbsp;= 111                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_BREAK">KEYWORD_BREAK</a>
+    <span>
+        &nbsp;= &#039;break&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_CASE">KEYWORD_CASE</a>
+    <span>
+        &nbsp;= &#039;case&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_CATCH">KEYWORD_CATCH</a>
+    <span>
+        &nbsp;= &#039;catch&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_CONST">KEYWORD_CONST</a>
+    <span>
+        &nbsp;= &#039;const&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_CONTINUE">KEYWORD_CONTINUE</a>
+    <span>
+        &nbsp;= &#039;continue&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_DEBUGGER">KEYWORD_DEBUGGER</a>
+    <span>
+        &nbsp;= &#039;debugger&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_DEFAULT">KEYWORD_DEFAULT</a>
+    <span>
+        &nbsp;= &#039;default&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_DELETE">KEYWORD_DELETE</a>
+    <span>
+        &nbsp;= &#039;delete&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_DO">KEYWORD_DO</a>
+    <span>
+        &nbsp;= &#039;do&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_ELSE">KEYWORD_ELSE</a>
+    <span>
+        &nbsp;= &#039;else&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_ENUM">KEYWORD_ENUM</a>
+    <span>
+        &nbsp;= &#039;enum&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_FALSE">KEYWORD_FALSE</a>
+    <span>
+        &nbsp;= &#039;false&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_FINALLY">KEYWORD_FINALLY</a>
+    <span>
+        &nbsp;= &#039;finally&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_FOR">KEYWORD_FOR</a>
+    <span>
+        &nbsp;= &#039;for&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_FUNCTION">KEYWORD_FUNCTION</a>
+    <span>
+        &nbsp;= &#039;function&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_IF">KEYWORD_IF</a>
+    <span>
+        &nbsp;= &#039;if&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_IN">KEYWORD_IN</a>
+    <span>
+        &nbsp;= &#039;in&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_INSTANCEOF">KEYWORD_INSTANCEOF</a>
+    <span>
+        &nbsp;= &#039;instanceof&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_NEW">KEYWORD_NEW</a>
+    <span>
+        &nbsp;= &#039;new&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_NULL">KEYWORD_NULL</a>
+    <span>
+        &nbsp;= &#039;null&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_RETURN">KEYWORD_RETURN</a>
+    <span>
+        &nbsp;= &#039;return&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_SWITCH">KEYWORD_SWITCH</a>
+    <span>
+        &nbsp;= &#039;switch&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_THIS">KEYWORD_THIS</a>
+    <span>
+        &nbsp;= &#039;this&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_THROW">KEYWORD_THROW</a>
+    <span>
+        &nbsp;= &#039;throw&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_TRUE">KEYWORD_TRUE</a>
+    <span>
+        &nbsp;= &#039;true&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_TRY">KEYWORD_TRY</a>
+    <span>
+        &nbsp;= &#039;try&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_TYPEOF">KEYWORD_TYPEOF</a>
+    <span>
+        &nbsp;= &#039;typeof&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_VAR">KEYWORD_VAR</a>
+    <span>
+        &nbsp;= &#039;var&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_VOID">KEYWORD_VOID</a>
+    <span>
+        &nbsp;= &#039;void&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_WHILE">KEYWORD_WHILE</a>
+    <span>
+        &nbsp;= &#039;while&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_KEYWORD_WITH">KEYWORD_WITH</a>
+    <span>
+        &nbsp;= &#039;with&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_AND">OP_AND</a>
+    <span>
+        &nbsp;= &#039;&amp;&amp;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_ASSIGN">OP_ASSIGN</a>
+    <span>
+        &nbsp;= &#039;=&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_BITWISE_AND">OP_BITWISE_AND</a>
+    <span>
+        &nbsp;= &#039;&amp;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_BITWISE_NOT">OP_BITWISE_NOT</a>
+    <span>
+        &nbsp;= &#039;~&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_BITWISE_OR">OP_BITWISE_OR</a>
+    <span>
+        &nbsp;= &#039;|&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_BITWISE_XOR">OP_BITWISE_XOR</a>
+    <span>
+        &nbsp;= &#039;^&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_COLON">OP_COLON</a>
+    <span>
+        &nbsp;= &#039;:&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_COMMA">OP_COMMA</a>
+    <span>
+        &nbsp;= &#039;,&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_CONDCOMMENT_END">OP_CONDCOMMENT_END</a>
+    <span>
+        &nbsp;= &#039;@*/&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_DECREMENT">OP_DECREMENT</a>
+    <span>
+        &nbsp;= &#039;--&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_DIV">OP_DIV</a>
+    <span>
+        &nbsp;= &#039;/&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_DOT">OP_DOT</a>
+    <span>
+        &nbsp;= &#039;.&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_EQ">OP_EQ</a>
+    <span>
+        &nbsp;= &#039;==&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_GE">OP_GE</a>
+    <span>
+        &nbsp;= &#039;&gt;=&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_GT">OP_GT</a>
+    <span>
+        &nbsp;= &#039;&gt;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_HOOK">OP_HOOK</a>
+    <span>
+        &nbsp;= &#039;?&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_INCREMENT">OP_INCREMENT</a>
+    <span>
+        &nbsp;= &#039;++&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_LE">OP_LE</a>
+    <span>
+        &nbsp;= &#039;&lt;=&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_LEFT_BRACKET">OP_LEFT_BRACKET</a>
+    <span>
+        &nbsp;= &#039;[&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_LEFT_CURLY">OP_LEFT_CURLY</a>
+    <span>
+        &nbsp;= &#039;{&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_LEFT_PAREN">OP_LEFT_PAREN</a>
+    <span>
+        &nbsp;= &#039;(&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_LSH">OP_LSH</a>
+    <span>
+        &nbsp;= &#039;&lt;&lt;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_LT">OP_LT</a>
+    <span>
+        &nbsp;= &#039;&lt;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_MINUS">OP_MINUS</a>
+    <span>
+        &nbsp;= &#039;-&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_MOD">OP_MOD</a>
+    <span>
+        &nbsp;= &#039;%&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_MUL">OP_MUL</a>
+    <span>
+        &nbsp;= &#039;*&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_NE">OP_NE</a>
+    <span>
+        &nbsp;= &#039;!=&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_NOT">OP_NOT</a>
+    <span>
+        &nbsp;= &#039;!&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_OR">OP_OR</a>
+    <span>
+        &nbsp;= &#039;||&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_PLUS">OP_PLUS</a>
+    <span>
+        &nbsp;= &#039;+&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_RIGHT_BRACKET">OP_RIGHT_BRACKET</a>
+    <span>
+        &nbsp;= &#039;]&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_RIGHT_CURLY">OP_RIGHT_CURLY</a>
+    <span>
+        &nbsp;= &#039;}&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_RIGHT_PAREN">OP_RIGHT_PAREN</a>
+    <span>
+        &nbsp;= &#039;)&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_RSH">OP_RSH</a>
+    <span>
+        &nbsp;= &#039;&gt;&gt;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_SEMICOLON">OP_SEMICOLON</a>
+    <span>
+        &nbsp;= &#039;;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_STRICT_EQ">OP_STRICT_EQ</a>
+    <span>
+        &nbsp;= &#039;===&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_STRICT_NE">OP_STRICT_NE</a>
+    <span>
+        &nbsp;= &#039;!==&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_UNARY_MINUS">OP_UNARY_MINUS</a>
+    <span>
+        &nbsp;= &#039;U-&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_UNARY_PLUS">OP_UNARY_PLUS</a>
+    <span>
+        &nbsp;= &#039;U+&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_OP_URSH">OP_URSH</a>
+    <span>
+        &nbsp;= &#039;&gt;&gt;&gt;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_STATEMENT_FORM">STATEMENT_FORM</a>
+    <span>
+        &nbsp;= 2                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_TOKEN_CONDCOMMENT_END">TOKEN_CONDCOMMENT_END</a>
+    <span>
+        &nbsp;= 8                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_TOKEN_CONDCOMMENT_START">TOKEN_CONDCOMMENT_START</a>
+    <span>
+        &nbsp;= 7                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_TOKEN_END">TOKEN_END</a>
+    <span>
+        &nbsp;= 1                            </span>
+</dt>
+<dd>JSMinPlus version 1.4</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_TOKEN_IDENTIFIER">TOKEN_IDENTIFIER</a>
+    <span>
+        &nbsp;= 3                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_TOKEN_NEWLINE">TOKEN_NEWLINE</a>
+    <span>
+        &nbsp;= 6                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_TOKEN_NUMBER">TOKEN_NUMBER</a>
+    <span>
+        &nbsp;= 2                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_TOKEN_REGEXP">TOKEN_REGEXP</a>
+    <span>
+        &nbsp;= 5                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_TOKEN_STRING">TOKEN_STRING</a>
+    <span>
+        &nbsp;= 4                            </span>
+</dt>
+
+    </dl>
+
+
+
+
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="files/vendor-tburry-pquery-third-party-jsminplus.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DECLARED_FORM">
+        DECLARED_FORM
+        <a href="namespaces/default.html#constant_DECLARED_FORM" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">93</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">DECLARED_FORM</span>
+    = <span class="phpdocumentor-signature__default-value">0</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_EXPRESSED_FORM">
+        EXPRESSED_FORM
+        <a href="namespaces/default.html#constant_EXPRESSED_FORM" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">94</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">EXPRESSED_FORM</span>
+    = <span class="phpdocumentor-signature__default-value">1</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_ARRAY_INIT">
+        JS_ARRAY_INIT
+        <a href="namespaces/default.html#constant_JS_ARRAY_INIT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">83</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_ARRAY_INIT</span>
+    = <span class="phpdocumentor-signature__default-value">107</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_BLOCK">
+        JS_BLOCK
+        <a href="namespaces/default.html#constant_JS_BLOCK" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">77</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_BLOCK</span>
+    = <span class="phpdocumentor-signature__default-value">101</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_CALL">
+        JS_CALL
+        <a href="namespaces/default.html#constant_JS_CALL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">80</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_CALL</span>
+    = <span class="phpdocumentor-signature__default-value">104</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_FOR_IN">
+        JS_FOR_IN
+        <a href="namespaces/default.html#constant_JS_FOR_IN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">79</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_FOR_IN</span>
+    = <span class="phpdocumentor-signature__default-value">103</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_GETTER">
+        JS_GETTER
+        <a href="namespaces/default.html#constant_JS_GETTER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">86</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_GETTER</span>
+    = <span class="phpdocumentor-signature__default-value">110</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_GROUP">
+        JS_GROUP
+        <a href="namespaces/default.html#constant_JS_GROUP" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">88</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_GROUP</span>
+    = <span class="phpdocumentor-signature__default-value">112</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_INDEX">
+        JS_INDEX
+        <a href="namespaces/default.html#constant_JS_INDEX" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">82</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_INDEX</span>
+    = <span class="phpdocumentor-signature__default-value">106</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_LABEL">
+        JS_LABEL
+        <a href="namespaces/default.html#constant_JS_LABEL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">78</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_LABEL</span>
+    = <span class="phpdocumentor-signature__default-value">102</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_LIST">
+        JS_LIST
+        <a href="namespaces/default.html#constant_JS_LIST" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">89</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_LIST</span>
+    = <span class="phpdocumentor-signature__default-value">113</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_MINIFIED">
+        JS_MINIFIED
+        <a href="namespaces/default.html#constant_JS_MINIFIED" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">91</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_MINIFIED</span>
+    = <span class="phpdocumentor-signature__default-value">999</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_NEW_WITH_ARGS">
+        JS_NEW_WITH_ARGS
+        <a href="namespaces/default.html#constant_JS_NEW_WITH_ARGS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">81</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_NEW_WITH_ARGS</span>
+    = <span class="phpdocumentor-signature__default-value">105</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_OBJECT_INIT">
+        JS_OBJECT_INIT
+        <a href="namespaces/default.html#constant_JS_OBJECT_INIT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">84</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_OBJECT_INIT</span>
+    = <span class="phpdocumentor-signature__default-value">108</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_PROPERTY_INIT">
+        JS_PROPERTY_INIT
+        <a href="namespaces/default.html#constant_JS_PROPERTY_INIT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">85</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_PROPERTY_INIT</span>
+    = <span class="phpdocumentor-signature__default-value">109</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_SCRIPT">
+        JS_SCRIPT
+        <a href="namespaces/default.html#constant_JS_SCRIPT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">76</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_SCRIPT</span>
+    = <span class="phpdocumentor-signature__default-value">100</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_JS_SETTER">
+        JS_SETTER
+        <a href="namespaces/default.html#constant_JS_SETTER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">87</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">JS_SETTER</span>
+    = <span class="phpdocumentor-signature__default-value">111</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_BREAK">
+        KEYWORD_BREAK
+        <a href="namespaces/default.html#constant_KEYWORD_BREAK" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">141</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_BREAK</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;break&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_CASE">
+        KEYWORD_CASE
+        <a href="namespaces/default.html#constant_KEYWORD_CASE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">142</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_CASE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;case&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_CATCH">
+        KEYWORD_CATCH
+        <a href="namespaces/default.html#constant_KEYWORD_CATCH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">143</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_CATCH</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;catch&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_CONST">
+        KEYWORD_CONST
+        <a href="namespaces/default.html#constant_KEYWORD_CONST" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">144</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_CONST</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;const&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_CONTINUE">
+        KEYWORD_CONTINUE
+        <a href="namespaces/default.html#constant_KEYWORD_CONTINUE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">145</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_CONTINUE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;continue&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_DEBUGGER">
+        KEYWORD_DEBUGGER
+        <a href="namespaces/default.html#constant_KEYWORD_DEBUGGER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">146</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_DEBUGGER</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;debugger&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_DEFAULT">
+        KEYWORD_DEFAULT
+        <a href="namespaces/default.html#constant_KEYWORD_DEFAULT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">147</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_DEFAULT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;default&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_DELETE">
+        KEYWORD_DELETE
+        <a href="namespaces/default.html#constant_KEYWORD_DELETE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">148</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_DELETE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;delete&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_DO">
+        KEYWORD_DO
+        <a href="namespaces/default.html#constant_KEYWORD_DO" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">149</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_DO</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;do&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_ELSE">
+        KEYWORD_ELSE
+        <a href="namespaces/default.html#constant_KEYWORD_ELSE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">150</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_ELSE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;else&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_ENUM">
+        KEYWORD_ENUM
+        <a href="namespaces/default.html#constant_KEYWORD_ENUM" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">151</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_ENUM</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;enum&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_FALSE">
+        KEYWORD_FALSE
+        <a href="namespaces/default.html#constant_KEYWORD_FALSE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">152</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_FALSE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;false&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_FINALLY">
+        KEYWORD_FINALLY
+        <a href="namespaces/default.html#constant_KEYWORD_FINALLY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">153</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_FINALLY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;finally&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_FOR">
+        KEYWORD_FOR
+        <a href="namespaces/default.html#constant_KEYWORD_FOR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">154</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_FOR</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;for&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_FUNCTION">
+        KEYWORD_FUNCTION
+        <a href="namespaces/default.html#constant_KEYWORD_FUNCTION" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">155</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_FUNCTION</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;function&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_IF">
+        KEYWORD_IF
+        <a href="namespaces/default.html#constant_KEYWORD_IF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">156</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_IF</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;if&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_IN">
+        KEYWORD_IN
+        <a href="namespaces/default.html#constant_KEYWORD_IN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">157</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_IN</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;in&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_INSTANCEOF">
+        KEYWORD_INSTANCEOF
+        <a href="namespaces/default.html#constant_KEYWORD_INSTANCEOF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">158</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_INSTANCEOF</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;instanceof&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_NEW">
+        KEYWORD_NEW
+        <a href="namespaces/default.html#constant_KEYWORD_NEW" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">159</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_NEW</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;new&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_NULL">
+        KEYWORD_NULL
+        <a href="namespaces/default.html#constant_KEYWORD_NULL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">160</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_NULL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;null&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_RETURN">
+        KEYWORD_RETURN
+        <a href="namespaces/default.html#constant_KEYWORD_RETURN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">161</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_RETURN</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;return&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_SWITCH">
+        KEYWORD_SWITCH
+        <a href="namespaces/default.html#constant_KEYWORD_SWITCH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">162</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_SWITCH</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;switch&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_THIS">
+        KEYWORD_THIS
+        <a href="namespaces/default.html#constant_KEYWORD_THIS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">163</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_THIS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;this&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_THROW">
+        KEYWORD_THROW
+        <a href="namespaces/default.html#constant_KEYWORD_THROW" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">164</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_THROW</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;throw&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_TRUE">
+        KEYWORD_TRUE
+        <a href="namespaces/default.html#constant_KEYWORD_TRUE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">165</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_TRUE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;true&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_TRY">
+        KEYWORD_TRY
+        <a href="namespaces/default.html#constant_KEYWORD_TRY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">166</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_TRY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;try&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_TYPEOF">
+        KEYWORD_TYPEOF
+        <a href="namespaces/default.html#constant_KEYWORD_TYPEOF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">167</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_TYPEOF</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;typeof&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_VAR">
+        KEYWORD_VAR
+        <a href="namespaces/default.html#constant_KEYWORD_VAR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">168</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_VAR</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;var&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_VOID">
+        KEYWORD_VOID
+        <a href="namespaces/default.html#constant_KEYWORD_VOID" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">169</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_VOID</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;void&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_WHILE">
+        KEYWORD_WHILE
+        <a href="namespaces/default.html#constant_KEYWORD_WHILE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">170</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_WHILE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;while&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KEYWORD_WITH">
+        KEYWORD_WITH
+        <a href="namespaces/default.html#constant_KEYWORD_WITH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">171</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">KEYWORD_WITH</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;with&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_AND">
+        OP_AND
+        <a href="namespaces/default.html#constant_OP_AND" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">103</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_AND</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&amp;&amp;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_ASSIGN">
+        OP_ASSIGN
+        <a href="namespaces/default.html#constant_OP_ASSIGN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">109</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_ASSIGN</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;=&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_BITWISE_AND">
+        OP_BITWISE_AND
+        <a href="namespaces/default.html#constant_OP_BITWISE_AND" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">106</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_BITWISE_AND</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&amp;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_BITWISE_NOT">
+        OP_BITWISE_NOT
+        <a href="namespaces/default.html#constant_OP_BITWISE_NOT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">127</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_BITWISE_NOT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;~&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_BITWISE_OR">
+        OP_BITWISE_OR
+        <a href="namespaces/default.html#constant_OP_BITWISE_OR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">104</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_BITWISE_OR</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;|&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_BITWISE_XOR">
+        OP_BITWISE_XOR
+        <a href="namespaces/default.html#constant_OP_BITWISE_XOR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">105</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_BITWISE_XOR</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;^&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_COLON">
+        OP_COLON
+        <a href="namespaces/default.html#constant_OP_COLON" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">101</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_COLON</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;:&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_COMMA">
+        OP_COMMA
+        <a href="namespaces/default.html#constant_OP_COMMA" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">99</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_COMMA</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;,&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_CONDCOMMENT_END">
+        OP_CONDCOMMENT_END
+        <a href="namespaces/default.html#constant_OP_CONDCOMMENT_END" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">135</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_CONDCOMMENT_END</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;@*/&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_DECREMENT">
+        OP_DECREMENT
+        <a href="namespaces/default.html#constant_OP_DECREMENT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">120</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_DECREMENT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;--&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_DIV">
+        OP_DIV
+        <a href="namespaces/default.html#constant_OP_DIV" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">124</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_DIV</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;/&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_DOT">
+        OP_DOT
+        <a href="namespaces/default.html#constant_OP_DOT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">128</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_DOT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;.&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_EQ">
+        OP_EQ
+        <a href="namespaces/default.html#constant_OP_EQ" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">108</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_EQ</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;==&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_GE">
+        OP_GE
+        <a href="namespaces/default.html#constant_OP_GE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">117</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_GE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&gt;=&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_GT">
+        OP_GT
+        <a href="namespaces/default.html#constant_OP_GT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">118</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_GT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&gt;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_HOOK">
+        OP_HOOK
+        <a href="namespaces/default.html#constant_OP_HOOK" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">100</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_HOOK</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;?&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_INCREMENT">
+        OP_INCREMENT
+        <a href="namespaces/default.html#constant_OP_INCREMENT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">119</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_INCREMENT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;++&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_LE">
+        OP_LE
+        <a href="namespaces/default.html#constant_OP_LE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">113</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_LE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&lt;=&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_LEFT_BRACKET">
+        OP_LEFT_BRACKET
+        <a href="namespaces/default.html#constant_OP_LEFT_BRACKET" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">129</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_LEFT_BRACKET</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;[&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_LEFT_CURLY">
+        OP_LEFT_CURLY
+        <a href="namespaces/default.html#constant_OP_LEFT_CURLY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">131</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_LEFT_CURLY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;{&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_LEFT_PAREN">
+        OP_LEFT_PAREN
+        <a href="namespaces/default.html#constant_OP_LEFT_PAREN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">133</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_LEFT_PAREN</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;(&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_LSH">
+        OP_LSH
+        <a href="namespaces/default.html#constant_OP_LSH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">112</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_LSH</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&lt;&lt;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_LT">
+        OP_LT
+        <a href="namespaces/default.html#constant_OP_LT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">114</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_LT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&lt;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_MINUS">
+        OP_MINUS
+        <a href="namespaces/default.html#constant_OP_MINUS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">122</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_MINUS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;-&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_MOD">
+        OP_MOD
+        <a href="namespaces/default.html#constant_OP_MOD" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">125</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_MOD</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;%&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_MUL">
+        OP_MUL
+        <a href="namespaces/default.html#constant_OP_MUL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">123</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_MUL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;*&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_NE">
+        OP_NE
+        <a href="namespaces/default.html#constant_OP_NE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">111</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_NE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;!=&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_NOT">
+        OP_NOT
+        <a href="namespaces/default.html#constant_OP_NOT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">126</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_NOT</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;!&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_OR">
+        OP_OR
+        <a href="namespaces/default.html#constant_OP_OR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">102</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_OR</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;||&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_PLUS">
+        OP_PLUS
+        <a href="namespaces/default.html#constant_OP_PLUS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">121</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_PLUS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;+&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_RIGHT_BRACKET">
+        OP_RIGHT_BRACKET
+        <a href="namespaces/default.html#constant_OP_RIGHT_BRACKET" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">130</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_RIGHT_BRACKET</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;]&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_RIGHT_CURLY">
+        OP_RIGHT_CURLY
+        <a href="namespaces/default.html#constant_OP_RIGHT_CURLY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">132</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_RIGHT_CURLY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;}&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_RIGHT_PAREN">
+        OP_RIGHT_PAREN
+        <a href="namespaces/default.html#constant_OP_RIGHT_PAREN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">134</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_RIGHT_PAREN</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;)&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_RSH">
+        OP_RSH
+        <a href="namespaces/default.html#constant_OP_RSH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">116</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_RSH</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&gt;&gt;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_SEMICOLON">
+        OP_SEMICOLON
+        <a href="namespaces/default.html#constant_OP_SEMICOLON" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">98</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_SEMICOLON</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_STRICT_EQ">
+        OP_STRICT_EQ
+        <a href="namespaces/default.html#constant_OP_STRICT_EQ" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">107</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_STRICT_EQ</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;===&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_STRICT_NE">
+        OP_STRICT_NE
+        <a href="namespaces/default.html#constant_OP_STRICT_NE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">110</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_STRICT_NE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;!==&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_UNARY_MINUS">
+        OP_UNARY_MINUS
+        <a href="namespaces/default.html#constant_OP_UNARY_MINUS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">138</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_UNARY_MINUS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;U-&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_UNARY_PLUS">
+        OP_UNARY_PLUS
+        <a href="namespaces/default.html#constant_OP_UNARY_PLUS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">137</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_UNARY_PLUS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;U+&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_OP_URSH">
+        OP_URSH
+        <a href="namespaces/default.html#constant_OP_URSH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">115</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">OP_URSH</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&gt;&gt;&gt;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_STATEMENT_FORM">
+        STATEMENT_FORM
+        <a href="namespaces/default.html#constant_STATEMENT_FORM" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">95</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">STATEMENT_FORM</span>
+    = <span class="phpdocumentor-signature__default-value">2</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TOKEN_CONDCOMMENT_END">
+        TOKEN_CONDCOMMENT_END
+        <a href="namespaces/default.html#constant_TOKEN_CONDCOMMENT_END" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">74</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TOKEN_CONDCOMMENT_END</span>
+    = <span class="phpdocumentor-signature__default-value">8</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TOKEN_CONDCOMMENT_START">
+        TOKEN_CONDCOMMENT_START
+        <a href="namespaces/default.html#constant_TOKEN_CONDCOMMENT_START" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">73</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TOKEN_CONDCOMMENT_START</span>
+    = <span class="phpdocumentor-signature__default-value">7</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TOKEN_END">
+        TOKEN_END
+        <a href="namespaces/default.html#constant_TOKEN_END" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">67</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">JSMinPlus version 1.4</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TOKEN_END</span>
+    = <span class="phpdocumentor-signature__default-value">1</span>
+</code>
+
+
+        <section class="phpdocumentor-description"><p>Minifies a javascript file using a javascript parser</p>
+<p>This implements a PHP port of Brendan Eich's Narcissus open source javascript engine (in javascript)
+References: http://en.wikipedia.org/wiki/Narcissus_(JavaScript_engine)
+Narcissus sourcecode: http://mxr.mozilla.org/mozilla/source/js/narcissus/
+JSMinPlus weblog: http://crisp.tweakblogs.net/blog/cat/716</p>
+<p>Tino Zijdel <a href="mailto:crisp@tweakers.net">crisp@tweakers.net</a></p>
+<p>Usage: $minified = JSMinPlus::minify($script [, $filename])</p>
+<p>Versionlog (see also changelog.txt):
+23-07-2011 - remove dynamic creation of OP_* and KEYWORD_* defines and declare them on top
+reduce memory footprint by minifying by block-scope
+some small byte-saving and performance improvements
+12-05-2009 - fixed hook:colon precedence, fixed empty body in loop and if-constructs
+18-04-2009 - fixed crashbug in PHP 5.2.9 and several other bugfixes
+12-04-2009 - some small bugfixes and performance improvements
+09-04-2009 - initial open sourced version 1.0</p>
+<p>Latest version of this script: http://files.tweakers.net/jsminplus/jsminplus.zip</p>
+</section>
+
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TOKEN_IDENTIFIER">
+        TOKEN_IDENTIFIER
+        <a href="namespaces/default.html#constant_TOKEN_IDENTIFIER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">69</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TOKEN_IDENTIFIER</span>
+    = <span class="phpdocumentor-signature__default-value">3</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TOKEN_NEWLINE">
+        TOKEN_NEWLINE
+        <a href="namespaces/default.html#constant_TOKEN_NEWLINE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">72</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TOKEN_NEWLINE</span>
+    = <span class="phpdocumentor-signature__default-value">6</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TOKEN_NUMBER">
+        TOKEN_NUMBER
+        <a href="namespaces/default.html#constant_TOKEN_NUMBER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">68</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TOKEN_NUMBER</span>
+    = <span class="phpdocumentor-signature__default-value">2</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TOKEN_REGEXP">
+        TOKEN_REGEXP
+        <a href="namespaces/default.html#constant_TOKEN_REGEXP" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TOKEN_REGEXP</span>
+    = <span class="phpdocumentor-signature__default-value">5</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TOKEN_STRING">
+        TOKEN_STRING
+        <a href="namespaces/default.html#constant_TOKEN_STRING" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/tburry/pquery/third party/jsminplus.php"><a href="files/vendor-tburry-pquery-third-party-jsminplus.html"><abbr title="vendor/tburry/pquery/third party/jsminplus.php">jsminplus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">70</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TOKEN_STRING</span>
+    = <span class="phpdocumentor-signature__default-value">4</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+            </section>
+
+        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/vendor/tburry/pquery/third party/jsminplus.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                            
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                                                                        <li><a href="files/vendor-tburry-pquery-third-party-jsminplus.html#toc-classes">Classes</a></li>
+                                                                                                        <li><a href="files/vendor-tburry-pquery-third-party-jsminplus.html#toc-constants">Constants</a></li>
+                                                        </ul>
+            </li>
+
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="namespaces/default.html#constant_DECLARED_FORM">DECLARED_FORM</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_EXPRESSED_FORM">EXPRESSED_FORM</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_ARRAY_INIT">JS_ARRAY_INIT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_BLOCK">JS_BLOCK</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_CALL">JS_CALL</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_FOR_IN">JS_FOR_IN</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_GETTER">JS_GETTER</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_GROUP">JS_GROUP</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_INDEX">JS_INDEX</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_LABEL">JS_LABEL</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_LIST">JS_LIST</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_MINIFIED">JS_MINIFIED</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_NEW_WITH_ARGS">JS_NEW_WITH_ARGS</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_OBJECT_INIT">JS_OBJECT_INIT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_PROPERTY_INIT">JS_PROPERTY_INIT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_SCRIPT">JS_SCRIPT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_JS_SETTER">JS_SETTER</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_BREAK">KEYWORD_BREAK</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_CASE">KEYWORD_CASE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_CATCH">KEYWORD_CATCH</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_CONST">KEYWORD_CONST</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_CONTINUE">KEYWORD_CONTINUE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_DEBUGGER">KEYWORD_DEBUGGER</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_DEFAULT">KEYWORD_DEFAULT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_DELETE">KEYWORD_DELETE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_DO">KEYWORD_DO</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_ELSE">KEYWORD_ELSE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_ENUM">KEYWORD_ENUM</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_FALSE">KEYWORD_FALSE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_FINALLY">KEYWORD_FINALLY</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_FOR">KEYWORD_FOR</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_FUNCTION">KEYWORD_FUNCTION</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_IF">KEYWORD_IF</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_IN">KEYWORD_IN</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_INSTANCEOF">KEYWORD_INSTANCEOF</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_NEW">KEYWORD_NEW</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_NULL">KEYWORD_NULL</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_RETURN">KEYWORD_RETURN</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_SWITCH">KEYWORD_SWITCH</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_THIS">KEYWORD_THIS</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_THROW">KEYWORD_THROW</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_TRUE">KEYWORD_TRUE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_TRY">KEYWORD_TRY</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_TYPEOF">KEYWORD_TYPEOF</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_VAR">KEYWORD_VAR</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_VOID">KEYWORD_VOID</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_WHILE">KEYWORD_WHILE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_KEYWORD_WITH">KEYWORD_WITH</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_AND">OP_AND</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_ASSIGN">OP_ASSIGN</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_BITWISE_AND">OP_BITWISE_AND</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_BITWISE_NOT">OP_BITWISE_NOT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_BITWISE_OR">OP_BITWISE_OR</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_BITWISE_XOR">OP_BITWISE_XOR</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_COLON">OP_COLON</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_COMMA">OP_COMMA</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_CONDCOMMENT_END">OP_CONDCOMMENT_END</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_DECREMENT">OP_DECREMENT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_DIV">OP_DIV</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_DOT">OP_DOT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_EQ">OP_EQ</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_GE">OP_GE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_GT">OP_GT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_HOOK">OP_HOOK</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_INCREMENT">OP_INCREMENT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_LE">OP_LE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_LEFT_BRACKET">OP_LEFT_BRACKET</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_LEFT_CURLY">OP_LEFT_CURLY</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_LEFT_PAREN">OP_LEFT_PAREN</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_LSH">OP_LSH</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_LT">OP_LT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_MINUS">OP_MINUS</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_MOD">OP_MOD</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_MUL">OP_MUL</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_NE">OP_NE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_NOT">OP_NOT</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_OR">OP_OR</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_PLUS">OP_PLUS</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_RIGHT_BRACKET">OP_RIGHT_BRACKET</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_RIGHT_CURLY">OP_RIGHT_CURLY</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_RIGHT_PAREN">OP_RIGHT_PAREN</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_RSH">OP_RSH</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_SEMICOLON">OP_SEMICOLON</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_STRICT_EQ">OP_STRICT_EQ</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_STRICT_NE">OP_STRICT_NE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_UNARY_MINUS">OP_UNARY_MINUS</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_UNARY_PLUS">OP_UNARY_PLUS</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_OP_URSH">OP_URSH</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_STATEMENT_FORM">STATEMENT_FORM</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_TOKEN_CONDCOMMENT_END">TOKEN_CONDCOMMENT_END</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_TOKEN_CONDCOMMENT_START">TOKEN_CONDCOMMENT_START</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_TOKEN_END">TOKEN_END</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_TOKEN_IDENTIFIER">TOKEN_IDENTIFIER</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_TOKEN_NEWLINE">TOKEN_NEWLINE</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_TOKEN_NUMBER">TOKEN_NUMBER</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_TOKEN_REGEXP">TOKEN_REGEXP</a></li>
+                                                    <li class=""><a href="namespaces/default.html#constant_TOKEN_STRING">TOKEN_STRING</a></li>
+                                            </ul>
+                </li>
+            
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="files/vendor-tburry-pquery-third-party-jsminplus.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>
